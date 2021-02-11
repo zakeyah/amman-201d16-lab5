@@ -30,10 +30,10 @@ Test this function by hand in the console to get it working, and when you think 
 // Write your code here
 function multiply(a, b) {
   let multiply = a*b ;
-  return[multiply,'The product of '+a+' and '+b+' is '+multiply+'.']
+  return[multiply,'The product of '+a+' and '+b+' is '+multiply+'.'];
   //eslint-disable-line
 }
-console.log(multiply(5,9))
+console.log(multiply(5,9));
 // Here is the test for multiply(); uncomment it to run it
  testMultiply(5,9);
 
