@@ -52,9 +52,11 @@ Test this function by hand in the console to get it working, and when you think 
 
 // Write your code here
 function sumAndMultiply(a, b, c) {
-  let sum = a+b+c ;
-  let multi = a*b*c ;
-  return [sum,multi,a+' and '+b+' and '+c+' sum to '+sum+'.','The product of '+a+' and '+b+' and '+c+' is '+multi+'.'];
+  let problem3=sum(a,b)[0];
+  problem3=sum(problem3,c)[0];
+  let problem03=multiply(a,b)[0];
+  problem03=multiply(problem03,c)[0];
+  return [problem3,problem03,a+' and '+b+' and '+c+' sum to '+problem3+'.','The product of '+a+' and '+b+' and '+c+' is '+problem03+'.'];
 
   //eslint-disable-line
 }
